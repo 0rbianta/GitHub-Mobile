@@ -90,6 +90,15 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="#FFFFFF"
+                    android:onClick="btnRefreshClick"
+                    android:scaleX="-1"
+                    android:scaleY="-1"
+                    app:srcCompat="@drawable/ic_baseline_refresh_24" />
+                <ImageButton
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
                     android:onClick="btnExitClick"
                     android:scaleX="-1"
                     android:scaleY="-1"
