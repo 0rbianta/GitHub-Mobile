@@ -133,6 +133,10 @@ public class MainActivity extends AppCompatActivity {
         loadWebView();
     }
 
+    public void btnRefreshClick(View v){
+        wv.reload();
+    }
+
     private void loadWebView(){
         wv.getSettings().setUserAgentString(USERAGENT);
         wv.getSettings().setJavaScriptEnabled(true);
